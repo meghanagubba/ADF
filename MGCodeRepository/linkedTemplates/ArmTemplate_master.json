@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "MGCodeRepository"
 		},
+		"AzureBlobStorageCode1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageCode1'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +37,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureBlobStorageCode1_connectionString": {
+						"value": "[parameters('AzureBlobStorageCode1_connectionString')]"
 					}
 				}
 			},

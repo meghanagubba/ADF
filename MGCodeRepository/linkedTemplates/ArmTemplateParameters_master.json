@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "MGCodeRepository"
 		},
+		"AzureBlobStorageCode1_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
