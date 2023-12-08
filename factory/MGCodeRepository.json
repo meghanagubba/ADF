@@ -1,0 +1,9 @@
+{
+	"name": "MGCodeRepository",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8278386b-a597-4a29-bf01-9c33e938fff8",
+		"tenantId": "3c4a7140-0c25-42c5-92d5-f545d6f2c554"
+	}
+}
